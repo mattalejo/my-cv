@@ -6,3 +6,8 @@
  - Education Background
  - Affiliations
  - Awards
+
+## Future Changes
+
+-  making it look nicer
+-  add everything else
