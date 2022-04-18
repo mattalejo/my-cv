@@ -1,0 +1,90 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{multicol}
+\usepackage{enumitem}
+
+\setlength\parindent{0pt}
+
+\definecolor{coral}{HTML}{f88379}
+\definecolor{grey}{HTML}{3d464b}
+\definecolor{blue}{HTML}{385a7c}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=coral,
+    filecolor=magenta,      
+    urlcolor=coral,
+    }
+   
+\setmainfont{SF-Pro}[
+Extension = .otf,
+UprightFont = *-Text-Light,
+BoldFont= *-Display-Bold,
+ItalicFont = *-Text-LightItalic,
+BoldItalicFont = *-Display-BoldItalic
+]
+ 
+\pagenumbering{gobble}
+ 
+\titleformat{\section}
+{\color{coral}\Large\bfseries\uppercase}
+{}
+{0em}
+{}
+
+\titlespacing{\section}
+{0em}
+{2em}
+{1em}
+
+\titleformat{\subsection}[runin]
+{\color{blue}	\large\bfseries}
+{}
+{0em}
+{}
+ 
+\titlespacing{\subsection}
+{0em}
+{1em}
+{0em}
+
+\titleformat{\subsubsection}[runin]
+{\itshape}
+{}
+{0em}
+{}
+ \titlespacing{\subsubsection}
+{0em}
+{0.25em}
+{0em}
+
+\newcommand{\yourName}{Albert Matthew Alejo}
+\newcommand{\yourWebsite}{https://mattalejo.com}
+\newcommand{\yourEmail}{albert.alejo@obf.ateneo.edu}
+\newcommand{\yourPhone}{+63 920 840 8888}
+\newcommand{\githubUserName}{mattalejo}
+\newcommand{\linkedInUserName}{mattalejo}
+
+\renewcommand{\maketitle}{
+\begin{multicols}{2}
+\textbf{\Huge \yourName}
+
+\columnbreak
+\begin{flushright}
+\href{mailto:albert.alejo@obf.ateneo.edu}{\faEnvelope \quad albert.alejo@obf.ateneo.edu}
+ 
+\href{http://www.linkedin.com/in/mattalejo}{\faLinkedin \quad mattalejo}
+
+\href{http://www.github.com/mattalejo}{\faGithub \quad mattalejo}
+\end{flushright}
+\end{multicols}
+}
+
+ 
+\title{Albert Matthew Alejo}
