@@ -3,11 +3,12 @@
  
  ## Includes
  
- - Education Background
- - Affiliations
+ - Education
+ - Extra-curricular work
  - Awards
+ - Skills
 
 ## Future Changes
 
--  making it look nicer
--  add everything else
+-  Revamp design if necessary
+-  Add more experience as I grow
